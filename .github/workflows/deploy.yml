@@ -1,4 +1,4 @@
-name: Go
+name: HTML
 
 on:
   push:
@@ -21,5 +21,5 @@ jobs:
     - id: 'deploy-ws'
       uses: 'google-github-actions/upload-cloud-storage@v0'
       with:
-        path: '/path/to/file'
+        path: '/'
         destination: 'cooding-frontend/'
